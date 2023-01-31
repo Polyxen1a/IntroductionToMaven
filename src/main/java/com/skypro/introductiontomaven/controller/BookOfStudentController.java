@@ -14,7 +14,7 @@ public class BookOfStudentController {
         return "Приложение запущено";
     }
 
-    @GetMapping()
+    @GetMapping("/info")
     String showInfo() {
         return "Автор: Полина <br> " +
                 "Имя проекта: Сказки <br>" +
